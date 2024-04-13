@@ -1,0 +1,39 @@
+#calculator {
+    display: flex;
+    background-color: aqua;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+#screen {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+    aspect-ratio: 4 / 1;
+    background-color: blanchedalmond;
+    outline: 2px solid black;
+}
+
+#results {
+    font-size: 250%;
+}
+
+#operators {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+  #numerals {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%; /* Adjust width as needed */
+  }
+
+  #numerals  button {
+    width: calc(100% / 3);
+  }
+
